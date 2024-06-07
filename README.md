@@ -13,12 +13,18 @@ A continuación les presento una breve introducción de cada uno de los programa
 - **Archivo:** *`Main.java`*
 - **Descripción:** Este es el programa principal del portafolio, el cual fue elaborado en Java, este presenta un menú con diferentes opciones para accesar a los diferentes programas:
 
-  	Calculadora
-  	IMC
-  	Fahrenheit / Celsius
-  	Calculadora de edad
-  	Conversor de unidades
-  	Lista de compras
+| OPCIÓN  | NOMBRE  |
+| :------------ | :------------ |
+| 1  | Calculadora  |
+| 2  | IMC  |
+|  3 | Fahrenheit / Celsius  |
+| 4  |  Calculadora de edad |
+| 5  |  Conversor de unidades |
+| 6  |  Lista de compras |
+
+
+
+
 
 ------------
 
@@ -38,8 +44,11 @@ A continuación les presento una breve introducción de cada uno de los programa
 
 - **Descripción:** Este programa despliega dos opciones:
 
-  	F / C
-  	C / F
+| OPCIÓN  | NOMBRE  |
+| :------------ | :------------ |
+|  1 | F / C  |
+|  2 | C / F  |
+
 
 **F / C:** Solicita al usuario el ingreso de los grados Fahrenheit y los convierte a grados Celsius.
 
