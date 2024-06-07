@@ -8,9 +8,9 @@ public class IMC {
         System.out.println("\n──INGRESE LOS SIGUIENTES DATOS──\n");
 
         Scanner IntoDatos = new Scanner(System.in);
-        System.out.print("Peso: ");
+        System.out.print("Peso (kg): ");
         double peso = IntoDatos.nextDouble();
-        System.out.print("Altura: ");
+        System.out.print("Altura (m): ");
         double altura = IntoDatos.nextDouble();
 
         //PROCESO

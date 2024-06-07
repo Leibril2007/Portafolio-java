@@ -32,7 +32,7 @@ public class calcular_edad {
         System.out.print("Año actual: ");
         int annoActual = diaActual.nextInt();
 
-        System.out.println("\nTu edad es: "+calc_por_nac(annoActual, annoNaci, mesNaci, mesAc, diaAc, diaNac));
+        System.out.println("\nTu edad es: "+calc_por_nac(annoActual, annoNaci, mesNaci, mesAc, diaAc, diaNac)+" años");
     }
 
 

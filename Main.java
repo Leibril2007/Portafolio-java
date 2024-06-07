@@ -16,8 +16,8 @@ public class Main {
         //LISTA DE OPCIONES
         String[] listaDeOpciones = {
                 "Calculadora", "IMC",
-                "Farenheit / Celsius", "Calcular edad",
-                "Grados", "Opción_6",
+                "Fahrenheit / Celsius", "Calculadora de edad",
+                "Conversor de unidades", "Lista de compras",
                 "Opción_7", "Opción_8",
                 "Opción_9", "Salir"
         };
