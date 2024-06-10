@@ -100,3 +100,8 @@ A continuación les presento una breve introducción de cada uno de los programa
 - **Archivo:** *`calcular_edad.java`*
 
 - **Descripción:** Este programa calcula la edad de una persona basado en el ingreso de su fecha de nacimiento (día, mes y año) y el ingreso de la fecha actual (día, mes y año), desplegando al final el número de años de la persona.
+
+### Conversor de Moneda
+- **Archivo:** *`ConversorMoneda.java`*
+
+-**Descripción:** Este programa realiza cuatro conversiones de moneda: quetzales a dólares, dólares a quetzales, quetzales a pesos mexicanos y pesos mexicanos a quetzales.
