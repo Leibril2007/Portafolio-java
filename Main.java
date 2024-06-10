@@ -7,6 +7,7 @@ import Calculadora_de_edad.calcular_edad;
 import Programa.IMC;
 import Conversor_de_unidades.Conversor;
 import lista.ListaDeCompras;
+import Conversor_de_Moneda.ConversorMoneda;
 // importar de nombreLibreria.NombrePaquete.NombreClase
 import java.util.Scanner;
 
@@ -18,7 +19,7 @@ public class Main {
                 "Calculadora", "IMC",
                 "Fahrenheit / Celsius", "Calculadora de edad",
                 "Conversor de unidades", "Lista de compras",
-                "Opción_7", "Opción_8",
+                "Conversor de Moneda", "opcion 8",
                 "Opción_9", "Salir"
         };
 
@@ -63,8 +64,7 @@ public class Main {
 
                    break;
                case 7:
-                   System.out.println("Opción 7");
-                   programa = false;
+                   ConversorMoneda.programa();
 
                    break;
                case 8:
