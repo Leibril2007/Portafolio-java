@@ -58,7 +58,7 @@ public class ConversorMoneda {
                 System.out.println("-------------PESOS MEXICANOS A QUETZALES---------------");
 
                 Scanner ingpesos = new Scanner(System.in);
-                System.out.print("Ingrese los quetzales: ");
+                System.out.print("Ingrese los pesos mexicanos: ");
                 double pesosM = ingpesos.nextDouble();
 
                 System.out.println("\nRESULTADO: "+"Q "+pesosAquet(pesosM));
@@ -79,12 +79,12 @@ public class ConversorMoneda {
     }
 
     public static double quetApesos(double quet){
-        double conversion = quet*(2.38585);
+        double conversion = quet*(2.37466);
         return conversion;
     }
 
     public static double pesosAquet(double pesosM){
-        double conversion = pesosM*(0.419137);
+        double conversion = pesosM*(0.42121 );
         return conversion;
     }
 
