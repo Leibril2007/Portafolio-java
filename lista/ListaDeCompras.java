@@ -1,6 +1,6 @@
 package lista;
 
-import Opciones.Lista_opciones;
+import mis_metodos.ListaDeOpciones;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class ListaDeCompras {
 
     //PROGRAMA INICIAL
     public static void programa(){
-        Lista_opciones.cargarOpciones(opciones);
+        ListaDeOpciones.cargarOpciones(opciones);
 
         Scanner opcion = new Scanner(System.in);
         System.out.print("[?]: ");

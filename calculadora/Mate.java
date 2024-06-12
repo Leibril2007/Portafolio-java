@@ -1,6 +1,6 @@
-package Matematicas;
+package calculadora;
 
-import Opciones.Lista_opciones;
+import mis_metodos.ListaDeOpciones;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Mate {
         System.out.println();
         String[] operaciones = {"Sumar","Restar","Multiplicar","Dividir"};
 
-        Lista_opciones.cargarOpciones(operaciones);
+        ListaDeOpciones.cargarOpciones(operaciones);
 
         System.out.println();
 

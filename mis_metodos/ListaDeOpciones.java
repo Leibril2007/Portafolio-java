@@ -1,6 +1,6 @@
-package Opciones;
+package mis_metodos;
 
-public class Lista_opciones {
+public class ListaDeOpciones {
 //Carga y muestra las opciones en grupos de dos, cada grupo en una línea separada.
 
     public static void cargarOpciones(String[] opciones) {

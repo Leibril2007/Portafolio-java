@@ -1,13 +1,13 @@
 //importar del nombrePaquete.nombreClase
-import Farenheit_Centigrados.ConversionFarenheitCentigrados;
-import Matematicas.Mate;
-import Opciones.Lista_opciones;
+import conversor.ConversorDeGrados;
+import calculadora.Mate;
+import mis_metodos.ListaDeOpciones;
 import interfaz_grafica.Banner;
-import Calculadora_de_edad.calcular_edad;
-import Programa.IMC;
-import Conversor_de_unidades.Conversor;
+import calculadora.CalcularLaEdad;
+import IMC.IMC;
+import conversor.Longitudes;
 import lista.ListaDeCompras;
-import Conversor_de_Moneda.ConversorMoneda;
+import conversor.ConversorMoneda;
 // importar de nombreLibreria.NombrePaquete.NombreClase
 import java.util.Scanner;
 
@@ -28,7 +28,7 @@ public class Main {
 
        do{
            Banner.mensaje();
-           Lista_opciones.cargarOpciones(listaDeOpciones);
+           ListaDeOpciones.cargarOpciones(listaDeOpciones);
 
            //PEDIR UNA OPCION
 
@@ -48,15 +48,15 @@ public class Main {
 
                    break;
                case 3:
-                   ConversionFarenheitCentigrados.programa();
+                   ConversorDeGrados.programa();
 
                    break;
                case 4:
-                   calcular_edad.programa();
+                   CalcularLaEdad.programa();
 
                    break;
                case 5:
-                   Conversor.programaConversor();
+                   Longitudes.programaConversor();
 
                    break;
                case 6:

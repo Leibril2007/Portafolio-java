@@ -1,4 +1,4 @@
-package Programa;
+package IMC;
 import java.util.Scanner;
 public class IMC {
     public static void programaIMC(){

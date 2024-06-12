@@ -1,8 +1,8 @@
-package Calculadora_de_edad;
+package calculadora;
 
 import java.util.Scanner;
 
-public class calcular_edad {
+public class CalcularLaEdad {
 
     public static void programa(){
 

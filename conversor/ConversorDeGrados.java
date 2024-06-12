@@ -1,10 +1,10 @@
-package Farenheit_Centigrados;
+package conversor;
 
-import Opciones.Lista_opciones;
+import mis_metodos.ListaDeOpciones;
 
 import java.util.Scanner;
 
-public class ConversionFarenheitCentigrados {
+public class ConversorDeGrados {
 
     public static void programa(){
 
@@ -14,7 +14,7 @@ public class ConversionFarenheitCentigrados {
         System.out.println();
         String[] operaciones = {"F/C","C/F"};
 
-        Lista_opciones.cargarOpciones(operaciones);
+        ListaDeOpciones.cargarOpciones(operaciones);
 
         Scanner opcionAelegir = new Scanner(System.in);
         System.out.print("¿Qué desea convertir?: ");

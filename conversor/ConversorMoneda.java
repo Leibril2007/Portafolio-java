@@ -1,5 +1,5 @@
-package Conversor_de_Moneda;
-import Opciones.Lista_opciones;
+package conversor;
+import mis_metodos.ListaDeOpciones;
 import java.util.Scanner;
 
 public class ConversorMoneda {
@@ -10,7 +10,7 @@ public class ConversorMoneda {
         System.out.println();
         String[] operaciones = {"Quetzales a Dólares","Dolares a Quetzales","Quetzales a Pesos Mexicanos","Pesos Mexicanos a Quetzales"};
 
-        Lista_opciones.cargarOpciones(operaciones);
+        ListaDeOpciones.cargarOpciones(operaciones);
 
         System.out.println();
 

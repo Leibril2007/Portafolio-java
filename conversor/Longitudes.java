@@ -1,8 +1,8 @@
-package Conversor_de_unidades;
+package conversor;
 
 import java.util.Scanner;
 
-public class Conversor {
+public class Longitudes {
 
     public static void programaConversor(){
 
