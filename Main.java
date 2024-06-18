@@ -8,6 +8,8 @@ import IMC.IMC;
 import conversor.Longitudes;
 import lista.ListaDeCompras;
 import conversor.ConversorMoneda;
+import mis_metodos.MisMetodos;
+import libros.Biblioteca;
 // importar de nombreLibreria.NombrePaquete.NombreClase
 import java.util.Scanner;
 
@@ -19,7 +21,7 @@ public class Main {
                 "Calculadora", "IMC",
                 "Fahrenheit / Celsius", "Calculadora de edad",
                 "Conversor de unidades", "Lista de compras",
-                "Conversor de Moneda", "opcion 8",
+                "Conversor de Moneda", "Biblioteca",
                 "Opción_9", "Salir"
         };
 
@@ -27,11 +29,13 @@ public class Main {
         boolean programa = true;
 
        do{
+           MisMetodos.limpiarConsola();
            Banner.mensaje();
+           MisMetodos.imprimirLinea();
+
            ListaDeOpciones.cargarOpciones(listaDeOpciones);
 
            //PEDIR UNA OPCION
-
            Scanner intOpcion = new Scanner(System.in);
            System.out.print("[?]: ");
            int opcion = intOpcion.nextInt();
@@ -42,33 +46,40 @@ public class Main {
            switch (opcion){
                case 1:
                    Mate.programa();
+                   programa = false;
                    break;
                case 2:
                    IMC.programaIMC();
+                   programa = false;
 
                    break;
                case 3:
                    ConversorDeGrados.programa();
+                   programa = false;
 
                    break;
                case 4:
                    CalcularLaEdad.programa();
+                   programa = false;
 
                    break;
                case 5:
-                   Longitudes.programaConversor();
+                   Longitudes.longitud();
+                   programa = false;
 
                    break;
                case 6:
                    ListaDeCompras.programa();
+                   programa = false;
 
                    break;
                case 7:
                    ConversorMoneda.programa();
+                   programa = false;
 
                    break;
                case 8:
-                   System.out.println("Opción 8");
+                   Biblioteca.programa();
                    programa = false;
 
                    break;

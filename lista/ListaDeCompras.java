@@ -14,6 +14,8 @@ public class ListaDeCompras {
 
     //PROGRAMA INICIAL
     public static void programa(){
+        System.out.println("\n-----------------LISTA DE COMPRAS------------------");
+
         ListaDeOpciones.cargarOpciones(opciones);
 
         Scanner opcion = new Scanner(System.in);
