@@ -1,4 +1,6 @@
 package IMC;
+import mis_metodos.MisMetodos;
+
 import java.util.Scanner;
 public class IMC {
     public static void programaIMC(){
@@ -21,7 +23,7 @@ public class IMC {
         System.out.println("\n--> IMC: "+IMC);
 
 
-        System.out.println("---------------------------");
+        MisMetodos.imprimirLinea();
         if (IMC < 18.5){
             System.out.println("--> IMC bajo");
         } else if (IMC > 18.5 && IMC < 24.9) {

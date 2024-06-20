@@ -1,4 +1,5 @@
 //importar del nombrePaquete.nombreClase
+import colegio.PrimeroPrimaria;
 import conversor.ConversorDeGrados;
 import calculadora.Mate;
 import mis_metodos.ListaDeOpciones;
@@ -22,7 +23,7 @@ public class Main {
                 "Fahrenheit / Celsius", "Calculadora de edad",
                 "Conversor de unidades", "Lista de compras",
                 "Conversor de Moneda", "Biblioteca",
-                "Opción_9", "Salir"
+                "Escuela", "Salir"
         };
 
 
@@ -39,7 +40,7 @@ public class Main {
            Scanner intOpcion = new Scanner(System.in);
            System.out.print("[?]: ");
            int opcion = intOpcion.nextInt();
-           System.out.println("─────────────────────────────────────────────");
+           MisMetodos.imprimirLinea();
 
            //CARGAR OPCIÓN DEL USUARIO
 
@@ -84,7 +85,7 @@ public class Main {
 
                    break;
                case 9:
-                   System.out.println("Opción 9");
+                   PrimeroPrimaria.programa();
                    programa = false;
 
                    break;
