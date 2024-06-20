@@ -1,4 +1,4 @@
-package colegio;
+package escuela;
 
 public class Estudiantes {
 

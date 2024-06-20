@@ -1,5 +1,5 @@
 //importar del nombrePaquete.nombreClase
-import colegio.PrimeroPrimaria;
+import escuela.PrimeroPrimaria;
 import conversor.ConversorDeGrados;
 import calculadora.Mate;
 import mis_metodos.ListaDeOpciones;
