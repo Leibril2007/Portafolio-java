@@ -10,13 +10,13 @@ public class Longitudes {
         System.out.println("\n-----------------CONVERSOR DE LONGITUDES------------------");
 
         System.out.println("\nOperaciones Disponibles: \n");
-        String[] operacion = {"Km/Mtrs", "Mtrs/Km", "Km/cm", "cm/km"};
+        String[] operacion = {"Km/m", "m/Km", "Km/cm", "cm/km"};
 
         ListaDeOpciones.cargarOpciones(operacion);
 
 
         Scanner seleccion = new Scanner(System.in);
-        System.out.print("¿Cuál desea? ");
+        System.out.print("\n¿Cuál desea? ");
         int opciones = seleccion.nextInt();
 
         //proceso

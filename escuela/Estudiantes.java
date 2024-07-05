@@ -4,15 +4,15 @@ public class Estudiantes {
 
     private String nombre;
     private String correo;
-    private String carrera;
+    private String gradoOcarrera;
     private int edad;
     private boolean solvencia;
 
     //MÉTODO CONSTRUCTOR
-    public Estudiantes(String nombre, String correo, String carrera, int edad, boolean solvencia){
+    public Estudiantes(String nombre, String correo, String gradoOcarrera, int edad, boolean solvencia){
         this.nombre = nombre;
         this.correo = correo;
-        this.carrera = carrera;
+        this.gradoOcarrera = gradoOcarrera;
         this.edad = edad;
         this.solvencia = solvencia;
     }
@@ -25,7 +25,7 @@ public class Estudiantes {
         return correo;
     }
     public String getCarrera(){
-        return carrera;
+        return gradoOcarrera;
     }
     public int getEdad() {
         return edad;
@@ -44,7 +44,7 @@ public class Estudiantes {
     }
 
     public void setCarrera(String carrera) {
-        this.carrera = carrera;
+        this.gradoOcarrera = carrera;
     }
 
     public void setEdad(int edad) {
@@ -56,7 +56,7 @@ public class Estudiantes {
     }
 
     //METODO ToSTRING
-    public String toString() {return "NOMBRE: "+nombre + " CORREO: " + correo + " CARRERA: "+carrera +" EDAD: " + edad + " SOLBENCIA: "+solvencia;};
+    public String toString() {return "NOMBRE: "+nombre + " CORREO: " + correo + " CARRERA: "+gradoOcarrera +" EDAD: " + edad + " SOLBENCIA: "+solvencia;};
 
 
 }

@@ -26,10 +26,10 @@ public class PrimeroPrimaria {
 
         System.out.println("\n-----------------CURSOS---------------------\n");
 
-        System.out.println(cursoEstudiante1.getNombre());
-        System.out.println(cursoEstudiante2.getNombre());
-        System.out.println(cursoEstudiante3.getNombre());
-        System.out.println(cursoEstudiante4.getNombre());
+        System.out.println("○ "+cursoEstudiante1.getNombre());
+        System.out.println("○ "+cursoEstudiante2.getNombre());
+        System.out.println("○ "+cursoEstudiante3.getNombre());
+        System.out.println("○ "+cursoEstudiante4.getNombre());
 
     }
 

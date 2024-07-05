@@ -9,5 +9,4 @@ public class MisMetodos {
     public static void imprimirLinea(){
         System.out.println("\n─────────────────────────────────────────────────────────────────────");
     }
-
 }

@@ -7,7 +7,7 @@ A continuación les presento una breve introducción de cada uno de los programa
 
 
 ## ✨Descripción de los Programas✨
-------------
+
 
 ### Main
 - **Archivo:** *`Main.java`*
@@ -21,26 +21,38 @@ A continuación les presento una breve introducción de cada uno de los programa
 | 4  |  Calculadora de edad |
 | 5  |  Conversor de unidades |
 | 6  |  Lista de compras |
-
-
-
-
+|  7 |  Conversor de moneda |
+|  8 |  Biblioteca |
+|  9 |  Escuela |
+|  10 |  Salir |
 
 ------------
-
-
 
 ### Interfaz Gráfica
 - **Archivo:** *` Banner.java`*
 
 - **Descripción:** Muestra un banner con un mensaje con el nombre del programador.
 
+[![Ejemplo de Banner](https://github.com/Leibril2007/Img/blob/main/Banner%20portafolio%20java.png?raw=true "Ejemplo de Banner")](http://https://github.com/Leibril2007/Img/blob/main/Banner%20portafolio%20java.png?raw=true "Ejemplo de Banner")
+
+------------
+
+### Calculadora
+- **Archivo:** *`Mate.java`*
+
+- **Descripción:** Este programa contiene una calculadora con operaciones básicas: suma, resta, multiplicación y división, presenta al usuario un menú de opciones en donde podrá elegir que operación desea ejecutar, solicitándole el ingreso de dos datos y desplegando al final el resultado de los mismos.
+
 ------------
 
 
+### Calculadora de edad
+- **Archivo:** *`CalcularLaEdad.java`*
 
-### Conversor de Fahrenheit a Celsius
-- **Archivo:** *`ConversionFarenheitCengtigrados.java`*
+- **Descripción:** Este programa calcula la edad de una persona basado en el ingreso de su fecha de nacimiento (día, mes y año) y el ingreso de la fecha actual (día, mes y año), desplegando al final el número de años de la persona.
+------------
+
+### Conversor de grados
+- **Archivo:** *`ConversorDeGrados.java`*
 
 - **Descripción:** Este programa despliega dos opciones:
 
@@ -55,26 +67,27 @@ A continuación les presento una breve introducción de cada uno de los programa
 **C / F :** Solicita al usuario el ingreso de los grados Celsius y los convierte a grados Fahrenheit.
 
 ------------
+### Conversor de moneda
+- **Archivo:** *`ConversorMoneda.java`*
 
+- **Descripción:** Este programa realiza cuatro conversiones de moneda: quetzales a dólares, dólares a quetzales, quetzales a pesos mexicanos y pesos mexicanos a quetzales.
+------------
+### Conversor de unidades
+- **Archivo:** *`Longitudes.java`*
 
-
-### Lista de Compras
-- **Archivo:** *`ListaDeCompras.java`*
-
-- **Descripción:** Este programa solicita al usuario el ingreso de tres productos con su respectivo precio, desplegando al final el listado de los tres productos.
+- **Descripción:** Este programa se centra en la conversión de unidades de longitud. Entre las conversiones que realiza están: kilómetros a metros, metros a kilómetros, kilómetros a centímetros y centímetros a kilómetros.
 
 ------------
 
+### Escuela
+Este programa se compone de 3 archivos para su función:
+- **Archivo:** *`PrimeroPrimaria.java`*
+- **Archivo:** *`Estudiantes.java`*
+- **Archivo:** *`Cursos.java`*
 
-
-### Calculadora
-- **Archivo:** *`Mate.java`*
-
-- **Descripción:** Este programa contiene una calculadora con operaciones básicas: suma, resta, multiplicación y división, presenta al usuario un menú de opciones en donde podrá elegir que operación desea ejecutar, solicitándole el ingreso de dos datos y desplegando al final el resultado de los mismos.
+- **Desripción:** Este programa muestra la información escolar de 5 alumnos que cursan el grado de Primero Primaria, la información que puede almacenar es la siguiente: nombre, correo, grado o carrera, edad y solvencia, sin embargo por consola solo muestra los datos del nombre y el correo del alumno. También almacena datos de los cursos que reciben tales como: nombre de la materia, categoría y período, sin embargo por consola solo muestra el nombre de 4 materias que reciben.
 
 ------------
-
-
 
 ### Calcular el IMC de una persona
 - **Archivo:** *`IMC.java`*
@@ -94,14 +107,23 @@ A continuación les presento una breve introducción de cada uno de los programa
 
 ------------
 
+### Biblioteca
+El siguiente programa también necesita de dos archivos para su debido funcionamiento:
+- **Archivo:** *` Biblioteca.java`*
+- **Archivo:** *` Libro.java`*
+
+- **Descripción:** Este programa realiza la función de una biblioteca,  almacenando los datos de nombre, autor y fecha de diez libros que se han leído.
 
 
-### Calculadora de edad
-- **Archivo:** *`calcular_edad.java`*
+------------
 
-- **Descripción:** Este programa calcula la edad de una persona basado en el ingreso de su fecha de nacimiento (día, mes y año) y el ingreso de la fecha actual (día, mes y año), desplegando al final el número de años de la persona.
+### Lista de Compras
+- **Archivo:** *`ListaDeCompras.java`*
 
-### Conversor de Moneda
-- **Archivo:** *`ConversorMoneda.java`*
+- **Descripción:** Este programa solicita al usuario el ingreso de tres productos con su respectivo precio, desplegando al final el listado de los tres productos.
 
--**Descripción:** Este programa realiza cuatro conversiones de moneda: quetzales a dólares, dólares a quetzales, quetzales a pesos mexicanos y pesos mexicanos a quetzales.
+------------
+
+
+
+

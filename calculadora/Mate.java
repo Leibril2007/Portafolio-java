@@ -1,6 +1,7 @@
 package calculadora;
 
 import mis_metodos.ListaDeOpciones;
+import mis_metodos.MisMetodos;
 
 import java.util.Scanner;
 
@@ -8,7 +9,7 @@ public class Mate {
 
     public static void programa(){
 
-        System.out.println("\n-----------------CALCULADORA------------------");
+        System.out.println("\n-----------------CALCULADORA------------------\n");
         System.out.println("OPERACIONES DISPONIBLES: ");
         System.out.println();
         String[] operaciones = {"Sumar","Restar","Multiplicar","Dividir"};
@@ -35,8 +36,8 @@ public class Mate {
                 System.out.print("Ingrese el segundo número: ");
                 int num2 = ingNum.nextInt();
 
-                System.out.println("\nRESULTADO: "+sumar(num1, num2));
-                System.out.println();
+                MisMetodos.imprimirLinea();
+                System.out.println("RESULTADO: "+sumar(num1, num2));
 
                 break;
             case 2:
