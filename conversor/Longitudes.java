@@ -21,7 +21,7 @@ public class Longitudes {
 
         //proceso
         Scanner datos = new Scanner(System.in);
-        System.out.print("numero 1: ");
+        System.out.print("Dato a convertir: ");
         double num1 = datos.nextDouble();
 
         System.out.println();
